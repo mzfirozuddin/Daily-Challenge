@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #35354b;
+    color: #fff;
+}
+
+.container {
+    width: 70%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container .input-box {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.container .input-box input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.4s ease;
+    margin: 0 5px;
+}
+
+.container .input-box .addBtn {
+    background-color: #7575d4;
+}
+
+.container .input-box .addBtn:hover {
+    background-color: #5454ee;
+}
+
+.filter {
+    margin-bottom: 1.2rem;
+}
+
+.filetrBtn {
+    padding: 0.3rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 0.4s ease;
+    margin: 0 5px;
+}
+
+.allBtn {
+    background-color: #8a3568;
+}
+.allBtn:hover {
+    background-color: #711d4f;
+}
+.activeBtn {
+    background-color: #3fa3a3;
+}
+.activeBtn:hover {
+    background-color: #127878;
+}
+.completedBtn {
+    background-color: #45ab45;
+}
+.completedBtn:hover {
+    background-color: #228f22;
+}
+
+.todo-conatiner {
+    margin-top: 1.3rem;
+}
+
+.todo-conatiner ul li {
+    list-style-type: none;
+    background-color: #b1b1c1;
+    color: #1e1c1c;
+    margin: 0.5rem auto;
+    padding: 0.5rem 0.6rem;
+    font-size: 1.4rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.todo {
+    margin-left: 5px;
+}
+
+.editBtn {
+    background-color: #3da2b8;
+}
+
+.editBtn:hover {
+    background-color: #1d7285;
+}
+
+.deleteBtn {
+    background-color: #c95b5b;
+}
+
+.deleteBtn:hover {
+    background-color: #ca2f2f;
+}
+
+.check {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.todo-conatiner ul li.completed {
+    background-color: #a5e9a5;
+}
+
+.todo-conatiner ul li.completed .todo {
+    text-decoration: line-through;
+}
